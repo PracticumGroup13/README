@@ -36,6 +36,18 @@ Library ที่ใช้สำหรับ Python
 - ‘time’ 
 - ‘datetime’ 
 
+Hardware
+├── particum.ino เป็นโปรทุกอย่างของ Hardware
+└── usbconfug.h เป็น config สำหรับ usb
+
+Library ที่ใช้สหรับ Arduino
+
+- ‘MFRC522’ 
+- ‘Wire’
+- ‘SPI’
+- ‘usbdrv’
+- ‘LiquidCrystal_I2C’ 
+- ‘Servo’ 
 
 Data
 ├── count.txt ใช้เก็บค่าของจำนวนคนที่อยู่ข้างในตอนปัจจุบัน
