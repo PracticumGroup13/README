@@ -27,14 +27,23 @@ frontend
 └── web.css เป็นไฟล์ที่เก็บ css ไว้ทั้งหมด
 
 Backend
-├── main.py    นนมาเขียนอธิบาย
-└── practicum.py    นนมาเขียนอธิบาย
-
-hardware-driver-main/
- มายมาเขียน
-
-license.txt ไฟล์แสดงข้อมูลลิขสิทธิ์ 
+├── main.py    ใช้ในการรับค่าบัตร ควบคุมการเปิดประตู
+└── practicum.py    ใช้ในการส่งและรับค่าจาก hardware
 
 Library ที่ใช้สำหรับ Python
 
-นนมาเขียน
+- ‘json’ 
+- ‘time’ 
+- ‘datetime’ 
+
+
+Data
+├── count.txt ใช้เก็บค่าของจำนวนคนที่อยู่ข้างในตอนปัจจุบัน
+├── remaining.txt ใช้เก็บค่าของจำนวนคนที่สามารถเข้าได้
+└── enter.txt ใช้เก็บค่าของประวัติการเข้าออก
+
+hardware-driver-main
+
+
+license.txt ไฟล์แสดงข้อมูลลิขสิทธิ์ 
+
